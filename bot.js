@@ -79,9 +79,9 @@ client.on('ready', () => {
   // Oynuyor 
   
       var actvs = [
-        `G/Yardım || 4.000+ Kullanıcı! ||${client.guilds.cache.size} Sunucu || Yapımcı ! ツTAHAツ FF#1269`,
-        `G/Yardım || 4.000+ Kullanıcı! ||${client.guilds.cache.size} Sunucu || Yapımcı ! ツTAHAツ FF#1269`,
-        `G/Yardım || 4.000+ Kullanıcı! ||${client.guilds.cache.size} Sunucu || Yapımcı ! ツTAHAツ FF#1269`,
+        `${prefix}yardım || ${client.users.cache.size} Kullanıcı! ||${client.guilds.cache.size} Sunucu`,
+        `${prefix}yardım || ${client.users.cache.size} Kullanıcı! ||${client.guilds.cache.size} Sunucu`,
+        `${prefix}yardım || ${client.users.cache.size} Kullanıcı! ||${client.guilds.cache.size} Sunucu`,
     ];
     
     client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'PLAYING' });
